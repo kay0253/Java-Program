@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; // import package
 
 public class VipSystem {
 
@@ -30,7 +30,7 @@ public class VipSystem {
         }
 
         if (carPrice>=100000){ 
-            System.out.println("You are the VIP");      
+            System.out.println("You are the VIP");
         } else {
             System.out.println("You Are Not the VIP");
         }
